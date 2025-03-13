@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const { ADMIN_PASSWORD_HASH, JWT_SECRET, JWT_EXPIRATION } = require('../config/config');
 
 
-console.log('JWT_SECRET:', JWT_SECRET); // Add this line to debug
+
 
 // Controller function to handle admin login
 exports.login = (req, res) => {
